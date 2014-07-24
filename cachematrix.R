@@ -31,8 +31,10 @@ makeCacheMatrix <- function(x = matrix()) {
 # The cacheSolve() function:
 # --------------------------
 # 1) Computes, caches and returns the inverse of an invertible square matrix.
-# 2) If the inverse has already been computed and cached to the makeCacheMatrix() function, then the inverse is retrieved without repeating the computation.
-# 3) The argument x passed to the cacheSolve() function is an instance of the makeCacheMatrix() function e.g. matrix1
+# 2) If the inverse has already been computed and cached to the makeCacheMatrix()
+#    function, then the inverse is retrieved without repeating the computation.
+# 3) The argument x passed to the cacheSolve() function is an instance of the
+#    makeCacheMatrix() function e.g. matrix1
 
 
 cacheSolve <- function(x, ...) {
