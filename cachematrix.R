@@ -1,5 +1,5 @@
-# The following two functions, when used together, calculate and cache the inverse of
-# an invertible square matrix.
+# The following two functions, when used together, calculate and cache the
+# inverse of an invertible square matrix.
 
 
 # The makeCacheMatrix() function:
