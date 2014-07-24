@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
         get <- function() {x}                                   # the get() function returns the original matrix e.g. matrix1$get().
         setinverse <- function(inverse) {i <<- inverse}         # the setinverse() function is used by the cacheSolve() function to cache the inverse of the matrix.
         getinverse <- function() {i}                            # the getinverse() function returns the cached inverse of the matrix (if it has already been cached) e.g. matrix1$getinverse().
-        list(set = set,... =
+        list(set = set,
              get = get,
              setinverse = setinverse,
              getinverse = getinverse)                           # the makeCacheMatrix() function is a list of 4 functions: set(), get(), setinverse(), getinverse().
